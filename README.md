@@ -1,54 +1,52 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://binary.ninja">Binary Ninja</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/kkrypt0nn/binja/stargazers"><img src="https://img.shields.io/github/stars/kkrypt0nn/binja?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/kkrypt0nn/binja/issues"><img src="https://img.shields.io/github/issues/kkrypt0nn/binja?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/kkrypt0nn/binja/contributors"><img src="https://img.shields.io/github/contributors/kkrypt0nn/binja?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+	<img src="https://raw.githubusercontent.com/kkrypt0nn/binja/main/assets/previews/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+<img src="https://raw.githubusercontent.com/kkrypt0nn/binja/main/assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<img src="https://raw.githubusercontent.com/kkrypt0nn/binja/main/assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+<img src="https://raw.githubusercontent.com/kkrypt0nn/binja/main/assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+<img src="https://raw.githubusercontent.com/kkrypt0nn/binja/main/assets/previews/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository locally
+1. Clone this repository
+2. Move the `themes` folder in your Binary Ninja directory in your user's folder
+	- **macOS**: `~/Library/Application Support/Binary Ninja/`
+	- **Linux**: `~/.binaryninja/`
+	- **Windows**: `%APPDATA%\Binary Ninja\`
 2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+3. Search for `theme` and select the theme you want to use
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Krypton](https://github.com/kkrypt0nn)
 
 &nbsp;
 
