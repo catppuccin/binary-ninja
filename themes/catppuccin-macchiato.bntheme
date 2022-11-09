@@ -1,6 +1,6 @@
 {
     "name": "Catppuccin Macchiato",
-    "style": "Macchiato",
+    "style": "Fusion",
 
     "colors": {
         "base": [36, 39, 58],
@@ -9,6 +9,7 @@
         "green": [166, 218, 149],
         "yellow": [238, 212, 159],
         "red": [237, 135, 150],
+        "rosewater": [244, 219, 214],
         "lavender": [183, 189, 248],
         "blue": [138, 173, 244],
         "surface0": [54, 58, 79],
@@ -26,7 +27,7 @@
         "Button":          "base",
         "ButtonText":      "surface2",
         "BrightText":      "surface2",
-        "Link":            "green",
+        "Link":            "rosewater",
         "Highlight":       "sky",
         "HighlightedText": "base",
         "Light":           "surface2"
@@ -37,7 +38,7 @@
         "modifiedColor":                        "red",
         "insertedColor":                        "sky",
         "notPresentColor":                      "sky",
-        "selectionColor":                       "green",
+        "selectionColor":                       "surface2",
         "outlineColor":                         "green",
         "backgroundHighlightDarkColor":         "base",
         "backgroundHighlightLightColor":        "base",

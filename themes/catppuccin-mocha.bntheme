@@ -1,6 +1,6 @@
 {
     "name": "Catppuccin Mocha",
-    "style": "Mocha",
+    "style": "Fusion",
 
     "colors": {
         "base": [30, 30, 46],
@@ -9,6 +9,7 @@
         "green": [166, 227, 161],
         "yellow": [249, 226, 175],
         "red": [243, 139, 168],
+        "rosewater": [245, 224, 220],
         "lavender": [180, 190, 254],
         "blue": [137, 180, 250],
         "surface0": [49, 50, 68],
@@ -26,7 +27,7 @@
         "Button":          "base",
         "ButtonText":      "surface2",
         "BrightText":      "surface2",
-        "Link":            "green",
+        "Link":            "rosewater",
         "Highlight":       "sky",
         "HighlightedText": "base",
         "Light":           "surface2"
@@ -37,7 +38,7 @@
         "modifiedColor":                        "red",
         "insertedColor":                        "sky",
         "notPresentColor":                      "sky",
-        "selectionColor":                       "green",
+        "selectionColor":                       "surface2",
         "outlineColor":                         "green",
         "backgroundHighlightDarkColor":         "base",
         "backgroundHighlightLightColor":        "base",

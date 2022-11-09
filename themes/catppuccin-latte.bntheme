@@ -1,6 +1,6 @@
 {
     "name": "Catppuccin Latte",
-    "style": "Latte",
+    "style": "Fusion",
 
     "colors": {
         "base": [239, 241, 245],
@@ -9,6 +9,7 @@
         "green": [64, 160, 43],
         "yellow": [223, 142, 29],
         "red": [210, 15, 57],
+        "rosewater": [220, 138, 120],
         "lavender": [114, 135, 253],
         "blue": [30, 102, 245],
         "surface0": [204, 208, 218],
@@ -26,7 +27,7 @@
         "Button":          "base",
         "ButtonText":      "surface2",
         "BrightText":      "surface2",
-        "Link":            "green",
+        "Link":            "rosewater",
         "Highlight":       "sky",
         "HighlightedText": "base",
         "Light":           "surface2"
@@ -37,7 +38,7 @@
         "modifiedColor":                        "red",
         "insertedColor":                        "sky",
         "notPresentColor":                      "sky",
-        "selectionColor":                       "green",
+        "selectionColor":                       "surface2",
         "outlineColor":                         "green",
         "backgroundHighlightDarkColor":         "base",
         "backgroundHighlightLightColor":        "base",

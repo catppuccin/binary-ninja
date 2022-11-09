@@ -1,6 +1,6 @@
 {
     "name": "Catppuccin Frappé",
-    "style": "Frappé",
+    "style": "Fusion",
 
     "colors": {
         "base": [48, 52, 70],
@@ -9,6 +9,7 @@
         "green": [166, 209, 137],
         "yellow": [229, 200, 144],
         "red": [231, 130, 132],
+        "rosewater": [242, 213, 207],
         "lavender": [186, 187, 241],
         "blue": [140, 170, 238],
         "surface0": [65, 69, 89],
@@ -26,7 +27,7 @@
         "Button":          "base",
         "ButtonText":      "surface2",
         "BrightText":      "surface2",
-        "Link":            "green",
+        "Link":            "rosewater",
         "Highlight":       "sky",
         "HighlightedText": "base",
         "Light":           "surface2"
@@ -37,7 +38,7 @@
         "modifiedColor":                        "red",
         "insertedColor":                        "sky",
         "notPresentColor":                      "sky",
-        "selectionColor":                       "green",
+        "selectionColor":                       "surface2",
         "outlineColor":                         "green",
         "backgroundHighlightDarkColor":         "base",
         "backgroundHighlightLightColor":        "base",
