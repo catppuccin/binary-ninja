@@ -1,0 +1,25 @@
+# A catppuccin RC for Binary Ninja. In beta, specs may change. 
+app_name: "Binary Ninja"
+binary_name: binary-ninja
+installation:
+  location:
+    macos: "~/Library/Application Support/Binary Ninja/"
+    linux: "~/.binaryninja/"
+    windows: "%appdata%/Binary Ninja/"
+  flavours:
+    all:
+      default:
+        - themes/
+    latte:
+      default:
+        - themes/catppuccin-latte.bntheme
+    frappe:
+      default:
+        - themes/catppuccin-frappe.bntheme
+    macchiato:
+      default:
+        - themes/catppuccin-macchiato.bntheme
+    mocha:
+      default:
+        - themes/catppuccin-mocha.bntheme
+  to: themes/
