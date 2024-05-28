@@ -1,0 +1,103 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{flavor.identifier}}.bntheme"
+---
+{%- macro rgb_value(c) -%}
+[{{c.rgb.r}}, {{c.rgb.g}}, {{c.rgb.b}}]
+{%- endmacro rgb_value -%}
+{%- set palette = flavor.colors -%}
+{
+    "name": "Catppuccin {{ flavor.name }}",
+    "style": "Fusion",
+
+    "colors": {
+        "base": {{ self::rgb_value(c=palette.base) }},
+        "text": {{ self::rgb_value(c=palette.text) }},
+        "sky": {{ self::rgb_value(c=palette.sky) }},
+        "green": {{ self::rgb_value(c=palette.green) }},
+        "yellow": {{ self::rgb_value(c=palette.yellow) }},
+        "red": {{ self::rgb_value(c=palette.red) }},
+        "rosewater": {{ self::rgb_value(c=palette.rosewater) }},
+        "lavender": {{ self::rgb_value(c=palette.lavender) }},
+        "blue": {{ self::rgb_value(c=palette.blue) }},
+        "surface0": {{ self::rgb_value(c=palette.surface0) }},
+        "surface2": {{ self::rgb_value(c=palette.surface2) }}
+    },
+
+    "palette": {
+        "Window":          "base",
+        "WindowText":      "text",
+        "Base":            "base",
+        "AlternateBase":   "surface0",
+        "ToolTipBase":     "base",
+        "ToolTipText":     "surface2",
+        "Text":            "text",
+        "Button":          "base",
+        "ButtonText":      "surface2",
+        "BrightText":      "surface2",
+        "Link":            "rosewater",
+        "Highlight":       "sky",
+        "HighlightedText": "base",
+        "Light":           "surface2"
+    },
+
+    "theme-colors": {
+        "addressColor":                         "green",
+        "modifiedColor":                        "red",
+        "insertedColor":                        "sky",
+        "notPresentColor":                      "sky",
+        "selectionColor":                       "surface2",
+        "outlineColor":                         "green",
+        "backgroundHighlightDarkColor":         "base",
+        "backgroundHighlightLightColor":        "base",
+        "boldBackgroundHighlightDarkColor":     "blue",
+        "boldBackgroundHighlightLightColor":    "red",
+        "alphanumericHighlightColor":           "sky",
+        "printableHighlightColor":              "yellow",
+        "graphBackgroundDarkColor":             "base",
+        "graphBackgroundLightColor":            "base",
+        "graphNodeDarkColor":                   "base",
+        "graphNodeLightColor":                  "base",
+        "graphNodeOutlineColor":                "surface2",
+        "trueBranchColor":                      "green",
+        "falseBranchColor":                     "red",
+        "unconditionalBranchColor":             "sky",
+        "altTrueBranchColor":                   "sky",
+        "altFalseBranchColor":                  "red",
+        "altUnconditionalBranchColor":          "sky",
+        "registerColor":                        "red",
+        "numberColor":                          "yellow",
+        "codeSymbolColor":                      "green",
+        "dataSymbolColor":                      "lavender",
+        "stackVariableColor":                   ["+", "text", "sky"],
+        "importColor":                          ["+", "text","green"],
+        "instructionHighlightColor":            ["~", "surface2", "base", 50],
+        "tokenHighlightColor":                  "lavender",
+        "annotationColor":                      "text",
+        "opcodeColor":                          "surface2",
+        "linearDisassemblyFunctionHeaderColor": "base",
+        "linearDisassemblyBlockColor":          "base",
+        "linearDisassemblyNoteColor":           "base",
+        "linearDisassemblySeparatorColor":      "surface2",
+        "stringColor":                          "yellow",
+        "typeNameColor":                        "sky",
+        "fieldNameColor":                       "blue",
+        "keywordColor":                         "green",
+        "uncertainColor":                       "sky",
+        "scriptConsoleOutputColor":             "text",
+        "scriptConsoleErrorColor":              "red",
+        "scriptConsoleEchoColor":               "green",
+        "blueStandardHighlightColor":           "blue",
+        "greenStandardHighlightColor":          "green",
+        "cyanStandardHighlightColor":           "sky",
+        "redStandardHighlightColor":            "red",
+        "magentaStandardHighlightColor":        "lavender",
+        "yellowStandardHighlightColor":         "yellow",
+        "orangeStandardHighlightColor":         ["+", "yellow", "red"],
+        "whiteStandardHighlightColor":          "text",
+        "blackStandardHighlightColor":          "base"
+    }
+}
